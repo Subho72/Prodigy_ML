@@ -66,7 +66,7 @@ pip install -r requirements.txt
 ### 3. Run the App
 
 ```bash
-streamlit run kmeans_app.py
+streamlit run app.py
 ```
 
 The app opens at `http://localhost:8501` 🎉
@@ -118,14 +118,6 @@ seaborn>=0.12.0
 ## 🔗 Using the Real Kaggle Dataset
 
 Download `Mall_Customers.csv` from [Kaggle](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python)
-
-```python
-# Replace:
-df_raw = generate_data()
-
-# With:
-df_raw = pd.read_csv("Mall_Customers.csv")
-```
 
 ---
 
