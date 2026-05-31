@@ -132,18 +132,7 @@ Price = w₁·SqFt + w₂·Bedrooms + w₃·Bathrooms
 
 ## 🔗 Using Real Kaggle Data
 
-1. Download `train.csv` from [Kaggle House Prices](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data)
-2. Place it in the project root directory
-3. Replace the `generate_data()` function in `house_price_app.py`:
-
-```python
-# Replace this line:
-df = generate_data()
-
-# With this:
-df = pd.read_csv("train.csv")
-df = df[["GrLivArea", "BedroomAbvGr", "FullBath", "GarageCars", "YearBuilt", "LotArea", "SalePrice"]].dropna()
-```
+Download `train.csv` from [Kaggle House Prices](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data)
 
 ---
 
