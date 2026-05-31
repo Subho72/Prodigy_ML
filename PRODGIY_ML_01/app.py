@@ -212,8 +212,8 @@ def train_model(df):
 
 
 # ─── Load data & model ───────────────────────────────────────────────────────
-df = generate_data()
-model, scaler, features, X_test, y_test, y_pred, metrics, full_df = train_model(df)
+df = pd.read_csv("train.csv")
+df = df[["GrLivArea", "BedroomAbvGr", "FullBath", "GarageCars", "YearBuilt", "LotArea", "SalePrice"]].dropna()
 
 # ─── Header ──────────────────────────────────────────────────────────────────
 st.markdown("<h1>🏠 House Price Predictor</h1>", unsafe_allow_html=True)
