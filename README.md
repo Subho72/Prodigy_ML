@@ -226,7 +226,7 @@ jupyter notebook
 
 <div align="center">
 
-**Subho72**  
+**Subham Sahoo**  
 Machine Learning Intern — Prodigy Infotech
 
 [![GitHub](https://img.shields.io/badge/GitHub-Subho72-181717?style=for-the-badge&logo=github)](https://github.com/Subho72)
