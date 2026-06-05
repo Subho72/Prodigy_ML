@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Machine Learning &fontSize=68&fontColor=ffffff&fontAlignY=38&desc=Machine%20Learning%20Internship%20Tasks%20%E2%80%94%20Prodigy%20Infotech&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Machine-Learning&fontSize=68&fontColor=ffffff&fontAlignY=38&desc=Machine%20Learning%20Internship%20Tasks%20%E2%80%94%20Prodigy%20Infotech&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
 
 <br/>
 
